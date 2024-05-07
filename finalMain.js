@@ -56,8 +56,8 @@ scene.add(ambientLight);
 
 function animate() {
     requestAnimationFrame(animate);
-    object.rotation.y = -3 + mouseX / window.innerWidth * 3;
-    object.rotation.x = -1.2 + mouseY * 2.5 / window.innerHeight;
+    object.rotation.y = -3.2 + mouseX / window.innerWidth * 3;
+    object.rotation.x = -1.25 + mouseY * 2.5 / window.innerHeight;
   
   renderer.render(scene, camera);
 }
